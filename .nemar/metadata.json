@@ -1,0 +1,36 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004078",
+  "source": "openneuro",
+  "source_id": "ds004078",
+  "title": "A synchronized multimodal neuroimaging dataset to study brain language processing",
+  "authors": {
+    "Shaonan Wang": {},
+    "Xiaohan Zhang": {},
+    "Jiajun Zhang": {},
+    "Chengqing Zong": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004078.v1.0.4",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.6.0",
+  "recording_modality": [
+    "anat",
+    "dwi",
+    "func",
+    "meg"
+  ],
+  "datatypes": [
+    "anat",
+    "dwi",
+    "func",
+    "meg"
+  ]
+}
