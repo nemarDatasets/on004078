@@ -20,28 +20,10 @@
       "term": "MEG"
     },
     {
-      "term": "Language",
+      "term": "Natural Language Processing",
       "subject_scheme": "MeSH",
       "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D007806"
-    },
-    {
-      "term": "Brain Mapping",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001931"
-    },
-    {
-      "term": "Magnetic Resonance Imaging",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008279"
-    },
-    {
-      "term": "Magnetoencephalography",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009323"
     },
     {
       "term": "naturalistic stimuli"
@@ -56,7 +38,7 @@
       "term": "linguistic annotations"
     },
     {
-      "term": "language processing"
+      "term": "language comprehension"
     },
     {
       "term": "auditory processing"
@@ -65,13 +47,28 @@
       "term": "story listening"
     },
     {
-      "term": "concurrent neuroimaging"
-    },
-    {
-      "term": "Diffusion MRI"
-    },
-    {
       "term": "resting-state fMRI"
+    },
+    {
+      "term": "diffusion MRI"
+    },
+    {
+      "term": "Magnetic Resonance Imaging",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008279"
+    },
+    {
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+    },
+    {
+      "term": "Brain Mapping",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001931"
     }
   ],
   "related_identifiers": [
