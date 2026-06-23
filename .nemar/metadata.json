@@ -1,36 +1,132 @@
 {
   "version": "2.0",
-  "dataset_id": "on004078",
-  "source": "openneuro",
-  "source_id": "ds004078",
+  "pipeline_stage": "enriched",
   "title": "A synchronized multimodal neuroimaging dataset to study brain language processing",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Shaonan Wang": {},
     "Xiaohan Zhang": {},
     "Jiajun Zhang": {},
     "Chengqing Zong": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004078.v1.0.4",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004078",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004078",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004078",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
+  "modalities": [
     "anat",
     "dwi",
     "func",
     "meg"
   ],
-  "datatypes": [
-    "anat",
-    "dwi",
-    "func",
-    "meg"
-  ]
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".bval",
+    ".bvec",
+    ".conllx",
+    ".fif",
+    ".fsf",
+    ".gz",
+    ".hdf5",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".nii",
+    ".out",
+    ".png",
+    ".py",
+    ".sh",
+    ".slurm",
+    ".tsv",
+    ".txt",
+    ".wav"
+  ],
+  "description": "SMN4Lang is a synchronized multimodal neuroimaging dataset comprising concurrent fMRI and MEG recordings from 12 Mandarin Chinese speakers during naturalistic story listening. The dataset includes high-resolution structural imaging, diffusion MRI, resting-state fMRI, and comprehensive linguistic annotations of stimuli encompassing word frequencies, syntactic structures, temporal alignments, and embeddings from multiple pre-trained language models. This resource enables investigation of neural mechanisms underlying language processing in naturalistic contexts.",
+  "methods_description": "fMRI and MEG data were collected from 12 right-handed participants (4 female, 8 male, ages 23-30) during listening to 60 naturalistic Mandarin Chinese stories (4-7 minutes each). fMRI acquisition was conducted across 7 visits (1.5 hours each) including T1, T2, diffusion, and resting-state scans, with task-based fMRI during story listening. MEG recording was conducted across 6 visits (1.5 hours each). Auditory stimuli were delivered via insert earphones with participant attention maintained via comprehension questions. MRI data were preprocessed using HCP minimal preprocessing pipelines. MEG data underwent temporal Signal Space Separation (tSSS) for noise reduction, bad channel exclusion, and independent component analysis (ICA) for artifact removal using MNE software.",
+  "keywords": [
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "language processing"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    },
+    {
+      "term": "naturalistic stimuli"
+    },
+    {
+      "term": "Mandarin Chinese"
+    },
+    {
+      "term": "syntactic annotations"
+    },
+    {
+      "term": "diffusion MRI"
+    },
+    {
+      "term": "resting-state fMRI"
+    },
+    {
+      "term": "story listening"
+    },
+    {
+      "term": "structural MRI"
+    },
+    {
+      "term": "POS tags"
+    },
+    {
+      "term": "constituent trees"
+    },
+    {
+      "term": "dependency trees"
+    },
+    {
+      "term": "BERT"
+    },
+    {
+      "term": "Word2Vec"
+    },
+    {
+      "term": "GPT2"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Peking University"
+    },
+    {
+      "funder_name": "Peking University",
+      "award_number": "Not specified"
+    }
+  ],
+  "source_hash": "845ecf918ec3727a5229c238ce62f670f96cd09a420166be6dbcf677453f96d3"
 }
