@@ -3,7 +3,7 @@
   "pipeline_stage": "enriched",
   "title": "A synchronized multimodal neuroimaging dataset to study brain language processing",
   "description": "A synchronized multimodal neuroimaging dataset containing concurrent fMRI and MEG recordings from 12 Mandarin Chinese speakers during naturalistic story listening, supplemented with high-resolution structural imaging, diffusion MRI, and resting-state fMRI. The dataset includes rich linguistic annotations of stimuli encompassing word frequencies, syntactic structures, temporal alignments, and embeddings from multiple pre-trained language models, enabling comprehensive investigation of neural mechanisms underlying language processing.",
-  "methods_description": "fMRI and MEG data were collected during passive listening to 60 naturalistic story audios (4-7 minutes each) across 7 fMRI visits and 6 MEG visits per participant. Structural imaging (T1, T2), diffusion MRI, and resting-state fMRI were acquired during fMRI sessions. MRI data were preprocessed using HCP minimal preprocessing pipelines. MEG data underwent temporal Signal Space Separation (tSSS) for noise reduction, bad channel exclusion, and independent component analysis (ICA) for artifact removal using MNE software.",
+  "methods_description": "fMRI and MEG data were collected during passive listening to 60 naturalistic story audios (4-7 minutes each) across 7 fMRI visits and 6 MEG visits per participant. Structural imaging (T1, T2), diffusion MRI, and resting-state fMRI were acquired during the first and final fMRI visits. MRI preprocessing followed HCP minimal preprocessing pipelines. MEG preprocessing included temporal Signal Space Separation (tSSS), bad channel exclusion, and ICA-based artifact removal using MNE software.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,31 +20,28 @@
       "term": "MEG"
     },
     {
-      "term": "Natural Language Processing",
+      "term": "brain language processing",
       "subject_scheme": "MeSH",
       "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009323"
-    },
-    {
-      "term": "naturalistic stimuli"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007806"
     },
     {
       "term": "multimodal neuroimaging"
     },
     {
+      "term": "naturalistic stimuli"
+    },
+    {
       "term": "Mandarin Chinese"
     },
     {
-      "term": "linguistic annotations"
-    },
-    {
-      "term": "language comprehension"
-    },
-    {
-      "term": "auditory processing"
+      "term": "syntactic annotations"
     },
     {
       "term": "story listening"
+    },
+    {
+      "term": "auditory language"
     },
     {
       "term": "resting-state fMRI"
@@ -53,32 +50,27 @@
       "term": "diffusion MRI"
     },
     {
-      "term": "Magnetic Resonance Imaging",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008279"
+      "term": "concurrent neuroimaging"
     },
     {
-      "term": "Magnetoencephalography",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+      "term": "language model embeddings"
     },
     {
-      "term": "Brain Mapping",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001931"
+      "term": "BERT"
+    },
+    {
+      "term": "Word2Vec"
+    },
+    {
+      "term": "GPT2"
+    },
+    {
+      "term": "linguistic annotations"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004078",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004078",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -91,6 +83,11 @@
       "identifier": "10.18112/openneuro.ds004078.v1.0.4",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004078",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
