@@ -1,0 +1,385 @@
+{
+  "dataset_id": "on004078",
+  "version": "1.0.0",
+  "generated_at": "2026-07-23T01:02:20.584Z",
+  "source": {
+    "type": "openneuro",
+    "id": "ds004078"
+  },
+  "complete": false,
+  "completeness": {
+    "files_present": 9386,
+    "files_declared": 9447,
+    "bytes_present": 1488306955125,
+    "bytes_declared": 1492527010882,
+    "pct_bytes": 0.9971725431256978
+  },
+  "missing": [
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_10_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s34898112--5225c4beaf590c1fc926cf3e8379c476.mat",
+      "declared_size": 34898112,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_11_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s51658944--e8ca36d0bebf30cd8795c776e654f994.mat",
+      "declared_size": 51658944,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_12_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s49201344--fd00c952a68e8b56f3f098245d183b4b.mat",
+      "declared_size": 49201344,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_13_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s40845504--b0ad9156c74b7825efbeb0bed24ea396.mat",
+      "declared_size": 40845504,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_14_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s45072576--7c813caf03e4d725294271797cf0821e.mat",
+      "declared_size": 45072576,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_15_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s42467520--c613292a87e2addffaef78b9e5d99dcb.mat",
+      "declared_size": 42467520,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_16_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s39764160--e04f620cf44fce563c09968e1dae1846.mat",
+      "declared_size": 39764160,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_17_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s43942080--dd433c18fb78d7838b5e189bd9644277.mat",
+      "declared_size": 43942080,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_18_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s40698048--8e0ad3cc6878e5404c7bf31521d846a2.mat",
+      "declared_size": 40698048,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_19_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s41484480--a63bda1da9f5d56e45502c499703735b.mat",
+      "declared_size": 41484480,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_1_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s51314880--5cdc7c074ed937b81ce3ccdf12e053e8.mat",
+      "declared_size": 51314880,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_20_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s34013376--2fb135065bd24d3adc255e089d72db5e.mat",
+      "declared_size": 34013376,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_21_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s51609792--d1d65199a6f5387ae7c66fe5c01cb05a.mat",
+      "declared_size": 51609792,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_22_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s48070848--ad94fd8e9fc6c2a40a87670d50d708b8.mat",
+      "declared_size": 48070848,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_23_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s40009920--4dd388eac1d0231e3dac42041987f7fe.mat",
+      "declared_size": 40009920,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_24_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s43942080--198f4876f7d3042b070d0ba390f4bde2.mat",
+      "declared_size": 43942080,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_25_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s38486208--f3991eaa4f7ee31a4b61b76a4dbc0013.mat",
+      "declared_size": 38486208,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_26_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s39174336--aff639117616f4fa178f0a1c47739e04.mat",
+      "declared_size": 39174336,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_27_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s44974272--dae5f88d9e2d6771323b5eee3766decb.mat",
+      "declared_size": 44974272,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_28_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s41140416--be753286d65e3ebf70d2fc71d5339b36.mat",
+      "declared_size": 41140416,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_29_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s42172608--898d871740a70148d089f3f3a9c9d8b8.mat",
+      "declared_size": 42172608,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_2_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s46153920--4bf02c4e97d9a98b32cf4027bddab8c3.mat",
+      "declared_size": 46153920,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_30_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s29884608--a23d92d294ee586aea23967d014f89a2.mat",
+      "declared_size": 29884608,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_31_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s52887744--a6d86f6a1789d3fc595701385ff635ac.mat",
+      "declared_size": 52887744,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_32_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s45367488--7d23a4c884aff2c0224c9cf3fb07aed1.mat",
+      "declared_size": 45367488,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_33_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s41779392--7081463e3df97f12ad4f7067184aacdf.mat",
+      "declared_size": 41779392,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_34_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s47628480--7c724d9bae83b151c25d21d781314e5c.mat",
+      "declared_size": 47628480,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_35_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s47431872--a830ac7d4c5e55b5120e9132aac4f313.mat",
+      "declared_size": 47431872,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_36_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s43057344--491868e82d69bdc32fc97d4a5b86d3ef.mat",
+      "declared_size": 43057344,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_37_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s43598016--d5154c0ef1c41391cb432fdd8af0c1fd.mat",
+      "declared_size": 43598016,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_38_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s40648896--81538d1ec8481637aafa44c952302499.mat",
+      "declared_size": 40648896,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_39_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s37896384--fdba0a54f75c01a85b92a9be964cdf3b.mat",
+      "declared_size": 37896384,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_3_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s44335296--9b7d2c42077fd85472af9891605d78bb.mat",
+      "declared_size": 44335296,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_40_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s36323520--4b52643d19ca6238279af9a1e6154e82.mat",
+      "declared_size": 36323520,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_41_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s51904704--071ba6b2eb07287575426def6422a45b.mat",
+      "declared_size": 51904704,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_42_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s49938624--e9e1152762fa756f3024371ac27ec75d.mat",
+      "declared_size": 49938624,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_43_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s42320064--515e598ea74d630a5d9e2a17ece3d2f8.mat",
+      "declared_size": 42320064,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_44_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s41091264--ff42e5a260423b405c4ed607fcb9f5c4.mat",
+      "declared_size": 41091264,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_45_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s38338752--97c100c491ed5cb6e5c08f0f931e608a.mat",
+      "declared_size": 38338752,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_46_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s41287872--a34bbacc8a97766406c6e86f9635aa26.mat",
+      "declared_size": 41287872,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_47_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s40599744--5ad8ba853403aa90a05c7286a49a1573.mat",
+      "declared_size": 40599744,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_48_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s42123456--a7caf7919d4652b0046a625b508f9ad1.mat",
+      "declared_size": 42123456,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_49_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s38731968--5c1cbd2155b705673c5d9dfa598add13.mat",
+      "declared_size": 38731968,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_4_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s44630208--8bdcd452f341b4b1909bb268c9cf1c6b.mat",
+      "declared_size": 44630208,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_50_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s41238720--8fd0a827f1bf4e3eb254a5279d220277.mat",
+      "declared_size": 41238720,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_51_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s49987776--e7003032486fac03d422d1ffe15d81c2.mat",
+      "declared_size": 49987776,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_52_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s46842048--ffffc000806b7fa89f6376c7883782cc.mat",
+      "declared_size": 46842048,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_53_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s41435328--f8d496f2626b4a984880fee0d15976ab.mat",
+      "declared_size": 41435328,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_54_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s45809856--9f51f2fc7c14ff2ebbc187629272ba54.mat",
+      "declared_size": 45809856,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_55_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s47382720--4637cabd5d9ba3c6db397ef2d1899226.mat",
+      "declared_size": 47382720,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_56_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s42320064--8afa19de2cde4c3ab8788b73824210e9.mat",
+      "declared_size": 42320064,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_57_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s41042112--292ceff59a697e7bbf48c2a7c40f52de.mat",
+      "declared_size": 41042112,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_58_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s40206528--00f69447cdf3897440190e877a3eed08.mat",
+      "declared_size": 40206528,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_59_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s38240448--18ee7982b0126140ce32caeddf575f19.mat",
+      "declared_size": 38240448,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_5_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s42811584--9443a8d37adce8c496f272d66ef342b4.mat",
+      "declared_size": 42811584,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_60_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s39616704--ba3d0f26b7833f155495967edcf3cfd2.mat",
+      "declared_size": 39616704,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_6_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s43499712--6694bf11112f89f2412047e992147891.mat",
+      "declared_size": 43499712,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_7_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s41287872--a2560d7f7f4aa52151e28150c23ade86.mat",
+      "declared_size": 41287872,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_8_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s38387904--94e06a55004ac8e8cef0f92de68997b8.mat",
+      "declared_size": 38387904,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/embeddings/gpt/word-level/story_9_word_gpt_1-25_1024.mat",
+      "key": "MD5E-s36126912--21bca752470a198189d8c9998739d2e4.mat",
+      "declared_size": 36126912,
+      "reason": "absent"
+    },
+    {
+      "path": "derivatives/annotations/quiz/meg_quiz.txt",
+      "key": "MD5E-s22524--02b6577d270dcdc734762f317faefd9f.txt",
+      "declared_size": 22524,
+      "reason": "absent"
+    }
+  ]
+}
