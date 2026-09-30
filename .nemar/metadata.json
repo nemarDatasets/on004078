@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "A synchronized multimodal neuroimaging dataset to study brain language processing",
-  "description": "A synchronized multimodal neuroimaging dataset containing concurrent fMRI and MEG recordings from 12 Mandarin Chinese speakers during naturalistic story listening, supplemented with high-resolution structural imaging, diffusion MRI, and resting-state fMRI. The dataset includes rich linguistic annotations of stimuli encompassing word frequencies, syntactic structures, temporal alignments, and embeddings from multiple pre-trained language models, enabling comprehensive investigation of neural mechanisms underlying language processing.",
-  "methods_description": "fMRI and MEG data were collected during passive listening to 60 naturalistic story audios (4-7 minutes each) across 7 fMRI visits and 6 MEG visits per participant. Structural imaging (T1, T2), diffusion MRI, and resting-state fMRI were acquired during the first and final fMRI visits. MRI preprocessing followed HCP minimal preprocessing pipelines. MEG preprocessing included temporal Signal Space Separation (tSSS), bad channel exclusion, and ICA-based artifact removal using MNE software.",
+  "description": "SMN4Lang is a synchronized multimodal neuroimaging dataset for studying brain language processing. It contains fMRI and MEG recordings from the same 12 participants listening to about 6 hours of naturalistic Mandarin Chinese stories. It also includes structural T1/T2, diffusion MRI, resting-state fMRI, and linguistic annotations of the stimuli such as word frequencies, part-of-speech tags, syntactic trees, time-aligned characters and words, and word embeddings.",
+  "methods_description": "Twelve right-handed native Mandarin speakers completed fMRI (7 visits) and MEG (6 visits) sessions in which they listened to 60 naturalistic story audios of 4-7 minutes each and answered questions after each story. Stimuli were presented with Psychtoolbox-3. MRI data were preprocessed with the HCP minimal preprocessing pipelines. MEG data were processed with tSSS, bad channel exclusion, and ICA-based ocular artifact removal in MNE.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,13 +20,7 @@
       "term": "MEG"
     },
     {
-      "term": "brain language processing",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D007806"
-    },
-    {
-      "term": "multimodal neuroimaging"
+      "term": "language processing"
     },
     {
       "term": "naturalistic stimuli"
@@ -35,34 +29,7 @@
       "term": "Mandarin Chinese"
     },
     {
-      "term": "syntactic annotations"
-    },
-    {
-      "term": "story listening"
-    },
-    {
-      "term": "auditory language"
-    },
-    {
-      "term": "resting-state fMRI"
-    },
-    {
       "term": "diffusion MRI"
-    },
-    {
-      "term": "concurrent neuroimaging"
-    },
-    {
-      "term": "language model embeddings"
-    },
-    {
-      "term": "BERT"
-    },
-    {
-      "term": "Word2Vec"
-    },
-    {
-      "term": "GPT2"
     },
     {
       "term": "linguistic annotations"
@@ -107,7 +74,7 @@
     "meg"
   ],
   "sizes": [
-    "1.5 TB (9163 files)"
+    "1.35 TB (9163 files)"
   ],
   "formats": [
     ".bval",
